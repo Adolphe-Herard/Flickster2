@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/tvTitle7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivPoster1"
+        android:text="Spider-Man: Far from Home"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tvoverView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ivPoster1"
+        android:layout_marginLeft="4dp"
+        android:layout_below="@+id/tvTitle7"
+        android:layout_marginBottom="-38dp"
+        android:layout_toRightOf="@id/ivPoster1"
+        android:text="Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent." />
+
+    <ImageView
+        android:id="@+id/ivPoster1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>
